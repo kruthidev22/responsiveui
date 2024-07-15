@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding:0;
+        }
+        body{
+            background-color: floralwhite;
+        }
+        h1{
+            color: white;
+            text-align: center;
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            width: 100%;
+        }
+        .container{
+            width:100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section{
+            width: 80%;
+            height: 70%;
+            background-color: rgb(230, 159, 194);
+            border-radius: 10px;
+            margin: 10px;
+            text-align: center;
+            justify-content: center;
+        }
+        .app{scroll-snap-type: ;
+            width: 100%;
+            height: 55%;
+            margin-bottom: 30px;
+        }
+        .aboutapp{
+            margin-top: 15px;
+            font-weight: normal;
+            padding: 5px;
+            text-align: center;
+        }
+        .image{
+            width: 100%;
+            height: 60%;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+        img{
+            width: 50%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .description p{
+            color: aliceblue;
+            margin: 10px;
+        }
+        .description .checked{
+            color: yellow;
+        }
+        @media screen and (min-width:520px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        width:100vw;
+        height:100vh;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center; 
+    
+    }
+    h1{
+        color: aliceblue;
+        text-align: center;
+        background-color: black;
+        padding: 10px;margin: 0;
+        position:fixed;width:100%;padding: 10px;
+        font-size: xx-large;
+    }
+    .section{
+        width:28%;
+        height:35%;
+        text-align: left;
+        padding: 10px; 
+    }
+    .app{
+        width:100%;
+        height:60%;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom:10px;padding: 15px;
+    }
+    .description{
+        width:70%;
+        height:50%;
+        margin-top:20px;
+        font-size: 1rem;
+    }
+    .description p{
+    color: aliceblue;
+    margin: 5px 0px
+    }
+    .image{
+        width:50%;
+        height:100%;
+    }
+    img{
+        width:80%;
+        height:80%
+    }
+    .aboutapp{
+    text-align: left;
+    font-weight: normal;
+    margin: 0;
+    padding:0 15px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="header"><h1>Play Store</h1></div>
+    <div class="container">
+        <div class="section">
+            <div class="app">
+                <div class="image"><img src="../assets/images/myntra.png"></div>
+                <div class="description">
+                    <h4>Myntra</h4>
+                    <p>Fashion Shopping</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span> 
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                </div>
+            </div>
+            <div class="aboutapp">
+                <p>India's Fashion Expert brings you a variety of footwear, Clothing, Accessories.</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="app">
+                <div class="image"><img src="../assets/images/uber.png"></div>
+                <div class="description">
+                    <h4>Uber</h4>
+                    <p>Transportation</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+            <div class="aboutapp">
+                <p>Uber is finding you better ways to move, work, and succeed in India.</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="app">
+                <div class="image"><img src="../assets/images/swiggy.png"></div>
+                <div class="description">
+                    <h4>Swiggy</h4>
+                    <p>Food Ordering</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+            <div class="aboutapp">
+                <p>Order food online from restaurants and get it delivered.</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="app">
+                <div class="image"><img src="../assets/images/maps.png"></div>
+                <div class="description">
+                    <h4>Maps</h4>
+                    <p>Web Mapping</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                </div>
+            </div>
+            <div class="aboutapp">
+                <p>Google Maps is a web mapping platform.</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="app">
+                <div class="image"><img src="../assets/images/lifestyle.png"></div>
+                <div class="description">
+                    <h4>Lifestyle</h4>
+                    <p>Fashion Shopping</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+            <div class="aboutapp">
+                <p> Online Shopping Site for Men, Women, and Kids.</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="app">
+                <div class="image"><img src="../assets/images/spotify.png"></div>
+                <div class="description">
+                    <h4>Spotify</h4>
+                    <p>Web Player</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+            <div class="aboutapp">
+                <p>Spotify is a digital music service that gives you access to millions of songs.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
